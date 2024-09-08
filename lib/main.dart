@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/leave_details_card.dart';
 import 'package:flutter_application_1/leave_dialog.dart';
-import 'package:flutter_application_1/services/style.dart';
 import 'package:flutter_application_1/side_menu.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -50,7 +48,7 @@ class MyApp extends StatelessWidget {
                                   width: 70,
                                 ),
                                 SizedBox(
-                                  width: 400,
+                                  width: 400,           
                                   height: 50,
                                   child: TextField(
                                     decoration: InputDecoration(
